@@ -11,7 +11,7 @@ public class ContaTerminal {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Iremos realizar seu cadastro! Por favor insira seu nome: ");
-        nomeCliente = sc.next();
+        nomeCliente = sc.nextLine();
 
         System.out.println("Insira o número de sua conta: ");
         numero = sc.nextInt();
